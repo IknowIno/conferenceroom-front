@@ -15,5 +15,4 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
 
