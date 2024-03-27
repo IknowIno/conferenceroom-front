@@ -6,7 +6,7 @@
             </el-alert>
         </div>
 
-        <!--            按照条件搜索-->
+        <!-- 按照条件搜索-->
         <div class="mConditions">
             <el-select v-model="roomFloor" clearable placeholder="楼层" @change="change">
                 <el-option v-for="item in floors" :key="item.roomFloor" :label="item.roomFloor" :value="item.roomFloor">
