@@ -15,4 +15,4 @@ npm run serve
 npm run build
 ```
 
-
+### export NODE_OPTIONS=--openssl-legacy-provider
