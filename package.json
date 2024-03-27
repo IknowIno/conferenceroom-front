@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "start": "antd-tools run clean && cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider concurrently \"bisheng start -c ./site/bisheng.config.js\"",
     "build": "vue-cli-service build"
   },
   "dependencies": {
